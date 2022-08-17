@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.page-title {
+  margin: 0 auto;
+  color: rgb(123, 0, 0);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 10px;
+}
+.activity-add,
+.activity-remove,
+.reset-button {
+  background-color: rgb(0, 93, 186);
+  padding: 0.3rem 1rem;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  border-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.activity-button:hover {
+  background-color: rgb(60, 127, 193);
+  transition: background-color 0.3s ease-in-out;
+}
+.activity-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+.activity-table {
+  width: 60%;
+  border-collapse: collapse;
+}
+.activity-table tbody tr {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.activity-table tbody tr td {
+  padding: 0.5rem 0;
+}
+
+.activity-table tbody tr td:first-child {
+  text-transform: capitalize;
+}
+.total-wrapper,
+.reset-wrapper {
+  margin: 1rem 0;
+}
+.activity-total_title {
+  font-weight: bold;
+}
+.reset-button {
+  background-color: #ddd;
+  color: #232322;
+  font-weight: 700;
+}
+.reset-button:hover {
+  background-color: #999;
+  transition: background-color 0.3s ease-in-out;
+}
